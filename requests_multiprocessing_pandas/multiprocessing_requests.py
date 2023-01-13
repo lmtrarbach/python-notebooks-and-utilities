@@ -5,7 +5,7 @@ import json
 
 def multiprocessing_requests(url):
     token_list = ['bitcoin', 'ethereum','cardano','polkadot']
-    api_key = "b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c"
+    api_key = “"
     def requests_pool(token):
         parameters = { 'slug': '{}'.format(token), 'convert': 'USD' }
         headers = {
